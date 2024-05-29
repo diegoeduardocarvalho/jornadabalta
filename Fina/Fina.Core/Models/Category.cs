@@ -2,7 +2,7 @@
 
 namespace Fina.Core.Models
 {
-    internal class Category
+    public class Category
     {
         public long Id { get; set; }
         public string Title { get; set; } = string.Empty;

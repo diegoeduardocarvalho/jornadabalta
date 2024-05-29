@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 
 namespace Fina.Core.Responses
 {
-    public abstract class PagedResponse<TData> : Response<TData>
+    public class PagedResponse<TData> : Response<TData>
     {
         [JsonConstructor]
         public PagedResponse(
